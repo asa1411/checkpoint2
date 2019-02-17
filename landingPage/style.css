@@ -1,40 +1,58 @@
+header {
+  height: 100px;
+  background-color: #a79ea8;
+  font-size: 2em;
+}
+
+header > span {
+  padding-right: 10px;
+}
+h1 {
+  padding-right: 10px;
+}
+
+footer {
+  height: 100px;
+  background-color: #996b9e;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 @media (min-width: 992px) {
-  header {
-    height: 100px;
-    background-color: #a79ea8;
-    font-size: 2em;
-  }
   .center-right {
-      display:flex;
+    display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     padding-bottom: 10px;
   }
-  header > span {
-    padding-right: 10px;
-  }
-  h1 {
-      
-  }
-
   main {
-    display:flex;
-    justify-content: left;
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
     height: 500px;
-    background-image: url("top-toy1.jpg") ;
+    background-image: url("top-toy1.jpg");
     background-repeat: no-repeat;
+  }
 }
+@media (min-width: 400px) and (max-width: 991px) {
+  .center-right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
-  img {
-  }
-  div {
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-image: url("top-toy.png");
   }
   footer {
     height: 100px;
     background-color: #996b9e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
-}
-
-@media screen (min-width: 576px) {
 }
