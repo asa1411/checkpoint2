@@ -1,0 +1,40 @@
+@media (min-width: 992px) {
+  header {
+    height: 100px;
+    background-color: #a79ea8;
+    font-size: 2em;
+  }
+  .center-right {
+      display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 10px;
+  }
+  header > span {
+    padding-right: 10px;
+  }
+  h1 {
+      
+  }
+
+  main {
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    height: 500px;
+    background-image: url("top-toy1.jpg") ;
+    background-repeat: no-repeat;
+}
+  }
+  img {
+  }
+  div {
+  }
+  footer {
+    height: 100px;
+    background-color: #996b9e;
+  }
+}
+
+@media screen (min-width: 576px) {
+}
