@@ -5,7 +5,7 @@ header {
 }
 
 header > span {
-  padding-right: 10px;
+  padding-right: 30px;
 }
 h1 {
   padding-right: 10px;
@@ -17,6 +17,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-size: 1.5em;
 }
 
 @media (min-width: 992px) {
@@ -35,7 +36,7 @@ footer {
     background-repeat: no-repeat;
   }
 }
-@media (min-width: 400px) and (max-width: 991px) {
+@media (max-width: 991px) {
   .center-right {
     display: flex;
     justify-content: space-around;
