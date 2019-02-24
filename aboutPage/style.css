@@ -7,22 +7,24 @@
       "article article"
       "iframe content"
       "footer footer";
-    font-size: 2em;
+    font-size: 1em;
   }
 
   .article {
     grid-area: article;
     background-color: #c0c7d3;
     display: flex;
-    /* justify-content: center; */
     flex-direction: row-reverse;
     align-items: flex-end;
     padding-bottom: 10px;
   }
+  span {
+    padding-right: 10px;
+  }
 
   .iframe {
     grid-area: iframe;
-    padding: 70px;
+    margin: auto;
   }
   .footer {
     grid-area: footer;
@@ -32,14 +34,38 @@
     grid-area: content;
     background-color: #768fbc;
     font-family: "Merriweather", serif;
-
-    line-height: 52px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1140px) {
+  .div-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 10% auto 200px 10%;
+    grid-template-areas:
+      "article "
+      "iframe"
+      "content"
+      "footer";
+    font-size: 1em;
+  }
+  .iframe {
+    padding: 50px;
+  }
 }
-@media (max-width: 400px) {
+@media (max-width: 790px) {
+  .iframe {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+  }
+  @media (max-width: 600px){
+    .iframe {
+      width: 300px;
+      height: 200px;
+      
+      
+  }
 }
