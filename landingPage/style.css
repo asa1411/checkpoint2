@@ -1,23 +1,78 @@
 header {
   height: 100px;
   background-color: #a79ea8;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 header > span {
   padding-right: 30px;
 }
-h1 {
-  padding-right: 10px;
+
+table,
+tr,
+td {
+  width: 200px;
+  height: 50px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+@keyframes box {
+  from {
+    color: white;
+  }
+  to {
+    color: black;
+  }
+}
+
+.box13 {
+  animation-delay: 1s;
+  animation-duration: 1s;
+
+  animation-fill-mode: both;
+  color: white;
+  animation-name: box;
+}
+.box21 {
+  animation-delay: 2s;
+  animation-duration: 1s;
+
+  animation-fill-mode: both;
+  color: white;
+  animation-name: box;
+}
+.box22 {
+  animation-name: box;
+  color: white;
+  animation-fill-mode: both;
+  animation-duration: 1s;
+  animation-delay: 3s;
+}
+.box23 {
+  animation-name: box;
+  color: white;
+  animation-fill-mode: both;
+  animation-duration: 1s;
+  animation-delay: 4s;
+}
+.box24 {
+  animation-name: box;
+  color: white;
+  animation-fill-mode: both;
+  animation-duration: 1s;
+  animation-delay: 5s;
+}
 footer {
   height: 100px;
   background-color: #996b9e;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 @media (min-width: 992px) {
@@ -32,8 +87,6 @@ footer {
     justify-content: flex-end;
     align-items: center;
     height: 500px;
-    background-image: url("top-toy1.jpg");
-    background-repeat: no-repeat;
   }
 }
 @media (max-width: 991px) {
@@ -47,7 +100,6 @@ footer {
     justify-content: center;
     align-items: center;
     height: 500px;
-    background-image: url("top-toy.png");
   }
   footer {
     height: 100px;
