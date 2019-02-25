@@ -28,7 +28,10 @@ td {
     color: black;
   }
 }
-
+.box11 {
+  border-top-color: white;
+  border-left-color: white;
+}
 .box13 {
   animation-delay: 1s;
   animation-duration: 1s;
