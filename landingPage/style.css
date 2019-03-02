@@ -2,6 +2,7 @@ header {
   height: 100px;
   background-color: #a79ea8;
   font-size: 2em;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 header > span {
@@ -325,6 +326,7 @@ footer {
     align-items: flex-end;
     padding-bottom: 10px;
   }
+
   main {
     display: flex;
     justify-content: flex-end;
@@ -338,6 +340,7 @@ footer {
     justify-content: space-around;
     align-items: center;
   }
+
   main {
     display: flex;
     justify-content: center;
