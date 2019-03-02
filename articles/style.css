@@ -1,0 +1,32 @@
+.article-container {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 33% 33% 34%;
+  grid-area: "article1picture article1" "article2picture article2"
+    "article3picture article3";
+  grid-gap: 2px;
+}
+.article1picture {
+  grid-area: article1picture;
+  width: 500px;
+}
+.article1 {
+  grid-area: article1;
+  width: 500px;
+}
+.article2picture {
+  grid-area: article2picture;
+  width: 500px;
+}
+.article2 {
+  grid-area: article2;
+  width: 500px;
+}
+.article3picture {
+  grid-area: article3picture;
+  width: 500px;
+}
+.article3 {
+  grid-area: article3;
+  width: 500px;
+}

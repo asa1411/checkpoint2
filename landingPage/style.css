@@ -5,8 +5,9 @@ header {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-header > span {
+header span a {
   padding-right: 30px;
+  color: rgba(252, 255, 45, 0.3);
 }
 
 table,
