@@ -79,6 +79,13 @@
   .content {
     margin-bottom: 20px;
   }
+  .article {
+    background-color: #c0c7d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+  }
 }
 @media (max-width: 600px) {
   .iframe {
